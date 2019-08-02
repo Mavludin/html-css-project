@@ -136,7 +136,7 @@ h1 {
 	margin-bottom: 20px;
 }
 
-article {
+figure {
 	text-align: center;
 	display: inline-block;
 	margin: 0 15px 15px 0;
@@ -146,19 +146,22 @@ article {
 	text-align: justify;
 	line-height: 1.2em;
 	font-size: 1.2em;
-	margin: 0 20px;
+	padding: 0 20px;
 }
 
-#justy p {
+#location {
 	margin-top: 15px;
 	color: #001f3f;
+	text-align: inherit;
+	font-size: inherit;
+	line-height: inherit;
 }
 
-#justy p span {
+#location span {
 	color: #000;
 }
 
-article a {
+figure a {
 	color: #7FDBFF;
 }
 
