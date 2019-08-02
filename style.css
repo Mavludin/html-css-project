@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #f2f6ff;
+	min-width: 1170px;
+}
+
+/* Header styles start */
+
+header {
+	text-align: center;
+	display: block;
+}
+
+#home {
+	background: url('img/header-bg.jpg') no-repeat 100% 100%;
+	height: 400px;
+	background-size: cover;
+}
+
+#sofya {
+	background: url('img/sofya.jpg') no-repeat 100% 40%;
+	background-size: cover;
+	height: 400px;
+}
+
+#s-mosque {
+	background: url('img/s-mosque.jpg') no-repeat 100% 40%;
+	background-size: cover;
+	height: 400px;
+}
+
+#a-museum {
+	background: url('img/a-museum.jpg') no-repeat 100% 40%;
+	background-size: cover;
+	height: 400px;
+}
+
+#galata {
+	background: url('img/galata.png') no-repeat 100% 50%;
+	background-size: cover;
+	height: 400px;	
+}
+
+
+#dolma {
+	background: url('img/dolma.jpg') no-repeat 100% 20%;
+	background-size: cover;
+	height: 400px;	
+}
+
+#m-tower {
+	background: url('img/m-tower.png') no-repeat 100% 50%;
+	background-size: cover;
+	height: 400px;	
+}
+
+#hippo {
+	background: url('img/hippo.jpg') no-repeat 100% 60%;
+	background-size: cover;
+	height: 400px;		
+}
+
+#b-mosque {
+	background: url('img/b-mosque.jpg') no-repeat 100% 60%;
+	background-size: cover;
+	height: 400px;		
+}
+
+#rumeli {
+	background: url('img/rumeli.jpg') no-repeat 100% 60%;
+	background-size: cover;
+	height: 400px;		
+}
+
+
+/* Top navigation styles start */
+
+nav {
+	background-color: rgba(1,1,1, 0.6);
+	padding: 5px;
+	display: block;
+}
+
+#about nav, #contact nav {
+	background-color: #001f3f;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul li {
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul li a {
+	font-size: 1.2em;
+	padding: 0 1em;
+	color: #7FDBFF;
+}
+
+ul li a:hover {
+	text-decoration: underline;
+}
+
+/* Top navigation styles end */
+/* Header styles end */
+
+
+
+/* Main content styles start */
+
+main {
+	width: 1170px;
+	margin: 15px auto;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	color: #001f3f;
+	margin-bottom: 20px;
+}
+
+article {
+	text-align: center;
+	display: inline-block;
+	margin: 0 15px 15px 0;
+}
+
+#justy{
+	text-align: justify;
+	line-height: 1.2em;
+	font-size: 1.2em;
+	margin: 0 20px;
+}
+
+#justy p {
+	margin-top: 15px;
+	color: #001f3f;
+}
+
+#justy p span {
+	color: #000;
+}
+
+article a {
+	color: #7FDBFF;
+}
+
+figure {
+	background-color: #001f3f;
+}
+
+img {
+	width: 350px;
+	height: 220px;
+}
+
+figcaption {
+	padding: 5px 0;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+/* Form styles start */
+
+form {
+	border: 1px solid #001f3f;
+	width: 400px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+input {
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 20px;
+	font-size: 1.2em;
+} /* Common styles for input tags */
+
+.enter-el {
+	width: 100%;
+	border: 0;
+	border-bottom: 1px solid #001f3f;
+} /* Styles for name, tel, and email input elements */
+
+#submit-btn {
+	width: 150px;
+	color: #7FDBFF;
+	background-color: #001f3f;
+	border: 0;
+	padding: 5px 0;
+	border-radius: 5px;
+	cursor: pointer;
+} /* Styles for submit button */
+
+#submit-btn:hover {
+	background-color: rgba(0,31,63, 0.8);
+}
+
+/* Form styles end */
+/* Main content styles end */
+
+
+/* Footer styles start */
+
+footer {
+	text-align: center;
+}
+
+footer nav {
+	background-color: #001f3f;
+}
+
+/* Footer styles end */
